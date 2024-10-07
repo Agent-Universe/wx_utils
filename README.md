@@ -1,7 +1,9 @@
 # wx_utils
+
 微信相关接口
 
 ---
+
 ## WeChat Access Token API
 
 This project provides a FastAPI-based API to manage and retrieve the WeChat access token. The access token is automatically refreshed every 7000 seconds and can also be manually refreshed via a POST request. The API also includes logging to track access token retrieval and refresh operations.
@@ -34,6 +36,7 @@ This project provides a FastAPI-based API to manage and retrieve the WeChat acce
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Agent-Universe/wx_utils.git
    cd wx_utils
@@ -47,6 +50,7 @@ This project provides a FastAPI-based API to manage and retrieve the WeChat acce
 ### Configuration
 
 1. Create a `.env` file in the root directory of the project and add your WeChat AppID and AppSecret:
+
    ```env
    APP_ID=your_app_id
    APP_SECRET=your_app_secret
@@ -57,6 +61,7 @@ This project provides a FastAPI-based API to manage and retrieve the WeChat acce
 ### Usage
 
 1. Start the FastAPI application:
+
    ```bash
    uvicorn getAccessToken:app --reload
    ```
