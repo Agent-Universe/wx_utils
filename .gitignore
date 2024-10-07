@@ -1,0 +1,77 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directory for temporary files
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+__pycache__/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.test
+.env.*.local
+
+# Production build files (if applicable)
+dist/
+build/
+
+# Cache
+.cache/
+.nyc_output/
+coverage/
+
+# Debugger output
+*.pid
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Yarn Integrity File
+.yarn-integrity
+
+# Ignore package-lock.json if using yarn (optional)
+package-lock.json
+
+# macOS system files
+*.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# IDE files
+*.iml
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Specific to API projects
+swagger.json
+.swagger-codegen/
+
+# Testing
+/coverage
+/mocha-coverage/
